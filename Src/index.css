@@ -1,0 +1,77 @@
+.wrap {
+    background: url(../Asset/bg.jpg) 50%/cover no-repeat;
+    height: 400px;
+    width: 1000px;
+}
+.wrap .body {
+    padding-top: 100px;
+
+}
+
+#shark {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 150px;
+    animation: chung 3.5s infinite;
+  }
+  @keyframes chung {
+    0%   { left:0px; top:150px;}
+    50% { left:900px; top:150px; }
+    100% { left: 0px; top: 150px; transform: scaleX(-1);}
+  }
+  #turtle {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:150px;
+    animation: chung 4s infinite;
+  }
+  #faintSchool {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:150px;
+    animation: chung 1.5s infinite;  
+  }
+  #goldFishSchool {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:150px;
+    animation: chung 3s infinite;    
+  }
+  #diver1 {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    animation: driver1 3s infinite;
+  }
+  @keyframes driver1 {
+    0%   { left:700px; top:180px;}
+    50% { left:700px; top:100px;  }
+    100% { left: 700px; top: 180px;transform: rotate(100deg);}
+  }
+  #diver2 {
+    width: 100px;
+    height: 100px;
+    position: fixed; 
+    animation: driver2 2s infinite;
+  }
+  @keyframes driver2 {
+    0%   { left:400px; top:250px;}
+    50% { left:400px; top:100px;  }
+    100% { left: 400px; top: 250px;transform: rotate(100deg);}
+  }
+  #diver3 {
+    width: 100px;
+    height: 100px;
+    position: fixed; 
+    animation: driver3 1.5s infinite;
+  }
+  @keyframes driver3 {
+    0%   { left:150px; top:250px;}
+    50% { left:150px; top:100px;  }
+    100% { left: 150px; top: 250px;transform: rotate(100deg);}
+  }
